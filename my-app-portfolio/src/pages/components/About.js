@@ -1,20 +1,17 @@
 import React from 'react';
+let aboutMePhoto = "/assets/aboutMePhoto.jpg";
 
 export default function About() {
   return (
     <div>
       <h1>About Page</h1>
+      <img src={process.env.PUBLIC_URL+aboutMePhoto} alt="About Me Photo" height={250}></img>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
-        velit, lobortis ut magna varius, blandit rhoncus sem. Morbi lacinia nisi
-        ac dui fermentum, sed luctus urna tincidunt. Etiam ut feugiat ex. Cras
-        non risus mi. Curabitur mattis rutrum ipsum, ut aliquet urna imperdiet
-        ac. Sed nec nulla aliquam, bibendum odio eget, vestibulum tortor. Cras
-        rutrum ligula in tincidunt commodo. Morbi sit amet mollis orci, in
-        tristique ex. Donec nec ornare elit. Donec blandit est sed risus feugiat
-        porttitor. Vestibulum molestie hendrerit massa non consequat. Vestibulum
-        vitae lorem tortor. In elementum ultricies tempus. Interdum et malesuada
-        fames ac ante ipsum primis in faucibus.
+        Hi! My name is Blair Millet.  
+        I lived in Atlana, Georgia the last five years and just moved back home to Baton Rouge, Louisiana - where I grew up.
+        Recently, I began attending a Full Stack Web Development Bootcamp through Georgia Institute of Technology - Georgia Tech - and am on my last stretch to the
+        finish line. From there, I will be starting my job search with a career as a Full Stack Developer. 
+        This page is my portfolio. Here you can find multiple projects I have completed and those I'm currently working on, along with my resume and contact information. 
       </p>
     </div>
   );
