@@ -6,6 +6,9 @@ node_modules
 package-lock.json
 notes.md
 .env
+indexCopy.html
+styleCopy.css
+
 
 # Logs
 logs
