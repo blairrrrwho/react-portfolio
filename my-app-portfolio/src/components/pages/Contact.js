@@ -4,19 +4,20 @@ export default function Contact() {
   return (
     <div>
       <h1>Contact Page</h1>
-      <p>
-        Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis
-        molestie urna. Aliquam semper ultrices varius. Aliquam faucibus sit amet
-        magna a ultrices. Aenean pellentesque placerat lacus imperdiet
-        efficitur. In felis nisl, luctus non ante euismod, tincidunt bibendum
-        mi. In a molestie nisl, eu sodales diam. Nam tincidunt lacus quis magna
-        posuere, eget tristique dui dapibus. Maecenas fermentum elementum
-        faucibus. Quisque nec metus vestibulum, egestas massa eu, sollicitudin
-        ipsum. Nulla facilisi. Sed ut erat ligula. Nam tincidunt nunc in nibh
-        dictum ullamcorper. Class aptent taciti sociosqu ad litora torquent per
-        conubia nostra, per inceptos himenaeos. Etiam ornare rutrum felis at
-        rhoncus. Etiam vel condimentum magna, quis tempor nulla.
-      </p>
+
+      {/* <a href="tel:(225)610-9403" title="Phone Number">Call Me!</a> */}
+      <br></br>
+      <a href="mailto:blair10324@gmail.com" title="Email">Email Me!
+        <i class="fa-solid fa-envelope"></i></a>
+      <br></br>
+      <a href="https://github.com/blairrrrwho" title="GitHub Profile">GitHub</a>
+      <br></br>
+      <a href="www.linkedin.com/in/blair-millet" title="LinkedIn Profile">LinkedIn</a>
+      <br></br>
+      {/* <a href="https://www.instagram.com/blairrrrwho/" title="Instagram Profile">Instagram</a> */}
+      {/* <a href="https://twitter.com/blairrrrwho" title="Twitter Profile">Twitter</a> */}
+      <a href="https://open.spotify.com/user/blairrrr4?si=05783944e8694dc7" title="Spotify Profile">Spotify</a>
+
     </div>
   );
 }
