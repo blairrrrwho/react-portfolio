@@ -4,8 +4,8 @@ let aboutMePhoto = "/assets/aboutMePhoto.jpg";
 export default function About() {
   return (
     <div>
-      <h1>About Page</h1>
-      <img src={process.env.PUBLIC_URL+aboutMePhoto} alt="About Me Photo" height={250}></img>
+      <h1>About</h1>
+      <img src={process.env.PUBLIC_URL+aboutMePhoto} alt="About Me Photo" height={250}></img> <br></br>
       <p>
         Hi! My name is Blair Millet.  
         I lived in Atlana, Georgia the last five years and just moved back home to Baton Rouge, Louisiana - where I grew up.

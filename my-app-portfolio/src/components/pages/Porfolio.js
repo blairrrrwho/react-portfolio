@@ -19,28 +19,41 @@ export default function Portfolio() {
         bibendum congue. Pellentesque semper, lectus non ullamcorper iaculis,
         est ligula suscipit velit, sed bibendum turpis dui in sapien.
       </p>
+      <br></br>
 
-      <a href="https://another-mvc-tech-blog.herokuapp.com/">
+      <a href="https://another-mvc-tech-blog.herokuapp.com/"
+        target="_blank"
+        rel="noopener noreferrer">
         <div class="overlay"><span>Tech Blog</span></div>
       </a> <br></br>
-      
-      <a href="https://blairrrrwho.github.io/astrnmy/">
+
+      <a href="https://blairrrrwho.github.io/astrnmy/"
+      target="_blank"
+      rel="noopener noreferrer">
         <div class="overlay"><span>astRnMy</span></div>
       </a> <br></br>
 
-      <a href="https://another-bad-music-review-woo.herokuapp.com/">
+      <a href="https://another-bad-music-review-woo.herokuapp.com/"
+      target="_blank"
+      rel="noopener noreferrer">
         <div class="overlay"><span>Another Bad Music Review</span></div>
       </a> <br></br>
 
-      <a href="https://incredible-note-taker-express.herokuapp.com/">
+      <a href="https://incredible-note-taker-express.herokuapp.com/"
+      target="_blank"
+      rel="noopener noreferrer">
         <div class="overlay"><span>Note Taker Express</span></div>
       </a> <br></br>
 
-      <a href="https://github.com/blairrrrwho/neat-social-network-api">
+      <a href="https://github.com/blairrrrwho/neat-social-network-api"
+      target="_blank"
+      rel="noopener noreferrer">
         <div class="overlay"><span>Social Network API - Backend with MongoDB</span></div>
       </a> <br></br>
 
-      <a href="https://github.com/blairrrrwho/orm-e-commerce-backend">
+      <a href="https://github.com/blairrrrwho/orm-e-commerce-backend"
+      target="_blank"
+      rel="noopener noreferrer">
         <div class="overlay"><span>E-Commerce Backend - ORM</span></div>
       </a> <br></br>
     </div>

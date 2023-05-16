@@ -9,6 +9,7 @@ function App() {
         <p> 
           <code>React Portfolio</code>
         </p>
+        <br></br>
         <a
           className="App-link"
           href="https://github.com/blairrrrwho"
