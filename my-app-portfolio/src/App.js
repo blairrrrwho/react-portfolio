@@ -1,12 +1,14 @@
-import './App.css';
 import React from "react";
 import PortfolioContainer from "./components/PortfolioContainer";
+import Header from "./components/Header"
 import Footer from "./components/Footer"
+import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      <Header />
+      {/* <header className="App-header">
         <p> 
           <code>React Portfolio</code>
         </p>
@@ -18,20 +20,11 @@ function App() {
         >
           <code>blair millet</code>
         </a>
-      </header>
+      </header> */}
       <PortfolioContainer />
       <Footer />
     </div>
   );
 }
-
-// function App() {
-//   return (
-//     <div className="my-app">
-//       <PortfolioContainer />
-//     </div>
-//   );
-// }
-// const App = () => <PortfolioContainer />;
 
 export default App;

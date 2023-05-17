@@ -14,7 +14,7 @@ export default function Footer() {
           <ul>
             <a href="mailto:blair10324@gmail.com" title="Email"
               target="_blank" rel="noopener noreferrer">
-              <FaEnvelope className="m-3" size={42}/>
+              <FaEnvelope className="m-3" color="red" size={42}/>
             </a>
 
             <a href="https://github.com/blairrrrwho" title="GitHub Profile"
