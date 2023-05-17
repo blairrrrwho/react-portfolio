@@ -1,6 +1,7 @@
 import './App.css';
 import React from "react";
 import PortfolioContainer from "./components/PortfolioContainer";
+import Footer from "./components/Footer"
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         </a>
       </header>
       <PortfolioContainer />
+      <Footer />
     </div>
   );
 }

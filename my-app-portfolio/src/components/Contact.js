@@ -39,16 +39,3 @@ function Contact() {
 export default Contact
 
 
-
-//       {/* <a href="tel:(225)610-9403" title="Phone Number">Call Me!</a> */}
-//       
-//       <a href="mailto:blair10324@gmail.com" title="Email">Email Me!
-//         <i class="fa-solid fa-envelope"></i></a>
-//       <a href="https://github.com/blairrrrwho" title="GitHub Profile">GitHub</a>
-//       <a href="www.linkedin.com/in/blair-millet" title="LinkedIn Profile">LinkedIn</a>
-//       <a href="https://stackoverflow.com/users/20580971/blair-millet" title="Stack Overflow">Stack Overflow</a>
-//       <a href="https://www.instagram.com/blairrrrwho/" title="Instagram Profile">Instagram</a> */}
-//       <a href="https://twitter.com/blairrrrwho" title="Twitter Profile">Twitter</a>
-//       <a href="https://open.spotify.com/user/blairrrr4?si=05783944e8694dc7" title="Spotify Profile">Spotify</a>
-
-
