@@ -4,51 +4,52 @@ import { FaEnvelope, FaGithub, FaLinkedin, FaStackOverflow, FaSpotify, FaTwitter
 export default function Footer() {
   return (
     <div>
-      <footer className="footer rows">
+      <footer className="footer rows ">
         <div className="content has-text-centered">
           <hr />
+          {/* <div class="row-is-full">
+            <strong> &copy; 2023 blair's big band</strong>
+          </div> */}
 
-          <div class="row-is-full content has-text-centered">
-            &copy; 2023 blair's big band
-          </div>
-
-          <div>
+          <ul>
             <a href="mailto:blair10324@gmail.com" title="Email"
               target="_blank" rel="noopener noreferrer">
-              <FaEnvelope />
+              <FaEnvelope className="m-3" size={42}/>
             </a>
 
             <a href="https://github.com/blairrrrwho" title="GitHub Profile"
               target="_blank" rel="noopener noreferrer">
-              <FaGithub />
+              <FaGithub className="m-3" size={42} />
             </a>
 
-            <a href="www.linkedin.com/in/blair-millet" title="LinkedIn Profile"
+            <a href="https://www.linkedin.com/in/blair-millet/" title="LinkedIn Profile"
               target="_blank" rel="noopener noreferrer">
-              <FaLinkedin />
+              <FaLinkedin className="m-3" size={42} />
             </a>
 
             <a href="https://stackoverflow.com/users/20580971/blair-millet" title="Stack Overflow"
               target="_blank" rel="noopener noreferrer">
-              <FaStackOverflow />
+              <FaStackOverflow className="m-3" size={42} />
             </a>
 
             <a href="https://open.spotify.com/user/blairrrr4?si=05783944e8694dc7" title="Spotify Profile"
               target="_blank" rel="noopener noreferrer">
-              <FaSpotify />
+              <FaSpotify className="m-3" size={42} />
             </a>
 
             <a href="https://twitter.com/blairrrrwho" title="Twitter Profile"
               target="_blank" rel="noopener noreferrer">
-              <FaTwitter />
+              <FaTwitter className="m-3" size={42} />
             </a>
 
             <a href="https://www.instagram.com/blairrrrwho/" title="Instagram Profile"
               target="_blank" rel="noopener noreferrer">
-              <FaInstagram />
+              <FaInstagram className="m-3" size={42} />
             </a>
+          </ul>
+          <div className="row-is-full ">
+            <strong> &copy; 2023 blair's big band</strong>
           </div>
-
           <hr />
 
         </div>
