@@ -14,8 +14,7 @@ function App() {
         <a
           className="App-link"
           href="https://github.com/blairrrrwho"
-          target="_blank"
-          rel="noopener noreferrer"
+          target="_blank" rel="noopener noreferrer"
         >
           <code>blair millet</code>
         </a>
