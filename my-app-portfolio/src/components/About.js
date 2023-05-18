@@ -3,15 +3,18 @@ let aboutMePhoto = "/assets/aboutMePhoto.jpg";
 
 export default function About() {
   return (
-    <div>
-      <h1>About</h1>
+    <div className="container p-4">
+      <h1 className="titleheader">About</h1>
       <img className='imgOfMe' src={process.env.PUBLIC_URL+aboutMePhoto} alt="About Me Photo" height={250}></img> <br></br>
-      <p>
+      <p className="p-4 mb-5">
         Hi! My name is Blair Millet.  
-        I lived in Atlana, Georgia the last five years and just moved back home to Baton Rouge, Louisiana - where I grew up.
-        Recently, I began attending a Full Stack Web Development Bootcamp through Georgia Institute of Technology - Georgia Tech - and am on my last stretch to the
-        finish line. From there, I will be starting my job search with a career as a Full Stack Developer. 
-        This page is my portfolio. Here you can find multiple projects I have completed and those I'm currently working on, along with my resume and contact information. 
+        I've been in Atlana, Georgia the last five years and recently moved back home to Louisiana.
+        I'm attending a Full Stack Web Development Bootcamp through the Georgia Institute of Technology and 
+        will be starting my job search with my new career as a Full Stack Developer. <br></br>
+        <br></br>
+        This site is my portfolio, built with react. Here and by using the navbar, you will find 
+        a collection of projects I have completed, those currently in progress, the option to download my resume, 
+        various ways to get in contact, and a form to send a message if you'd like. 
       </p>
     </div>
   );

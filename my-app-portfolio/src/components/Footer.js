@@ -3,7 +3,7 @@ import { FaEnvelope, FaGithub, FaLinkedin, FaStackOverflow, FaSpotify, FaTwitter
 
 export default function Footer() {
   return (
-    <div>
+    <div className="container">
       <footer className="footer rows ">
         <div className="content has-text-centered">
           <hr />
@@ -14,7 +14,7 @@ export default function Footer() {
           <ul>
             <a href="mailto:blair10324@gmail.com" title="Email"
               target="_blank" rel="noopener noreferrer">
-              <FaEnvelope className="m-3" color="red" size={42}/>
+              <FaEnvelope className="m-3" size={42}/>
             </a>
 
             <a href="https://github.com/blairrrrwho" title="GitHub Profile"
@@ -39,7 +39,8 @@ export default function Footer() {
 
             <a href="https://twitter.com/blairrrrwho" title="Twitter Profile"
               target="_blank" rel="noopener noreferrer">
-              <FaTwitter className="m-3" size={42} />
+              <FaTwitter className="m-3 --bs-link-color: #0d6efd;
+    /* --bs-link-hover-color: #0a58ca;" size={42} />
             </a>
 
             <a href="https://www.instagram.com/blairrrrwho/" title="Instagram Profile"
@@ -48,7 +49,7 @@ export default function Footer() {
             </a>
           </ul>
           <div className="row-is-full ">
-            <strong> &copy; 2023 blair's big band</strong>
+           &copy; 2023 blair's big band
           </div>
           <hr />
 

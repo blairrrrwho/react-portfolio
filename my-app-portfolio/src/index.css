@@ -12,6 +12,10 @@ code {
     monospace;
 }
 
+h1 {
+  margin: 2em;
+}
+
 .contact input, .contact textarea {
  width: 35%;
  resize: none;
@@ -25,14 +29,25 @@ code {
   border: none;
   padding: 5px;
   border-radius: 4px;
+  margin-bottom: 17em;
+  margin-top: 2em;
 }
 
 .imgOfMe {
-  border-radius: 50%;
-  border: 2px solid #282c34;;
+  border-radius: 3%;
+  border: 1.5px solid #282c34;
+  margin: 2em;
 }
 
-/* 
-.footer {
-  
-} */
+.m-3 {
+  color: #282C34;
+}
+
+.m-3 :hover{
+  color: #b51d69;
+}
+
+.titleheader {
+  padding-top: 1em;
+}
+

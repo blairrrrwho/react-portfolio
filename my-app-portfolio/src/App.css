@@ -42,16 +42,12 @@ h1 {
   font-size: 24px;
 }
 
-h3 {
-  margin: auto;
-  color: rgb(66, 171, 231);
-  font-size: 20px;
-}
 
 a.nav-link {
   color: #DEE5E5;
 }
 
 .nav-item a:hover {
-  color: #D63384;
+  background-color: #17b890a8;
+  color: #282C34;
 }
