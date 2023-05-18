@@ -23,9 +23,7 @@ export default function Portfolio() {
 {/* MVC Tech Blog */}
       <a href="https://another-mvc-tech-blog.herokuapp.com/"
         target="_blank" rel="noopener noreferrer">
-        <img src={process.env.PUBLIC_URL + techBlogPhoto} alt="Tech Blog Photo" height={400}></img>
-        <div className="overlay"><span>Tech Blog</span></div>
-      </a>
+        <img src={process.env.PUBLIC_URL + techBlogPhoto} alt="Tech Blog" height={400}></img> Tech Blog</a>
       <a href="https://github.com/blairrrrwho/mvc-tech-blog"
         target="_blank" rel="noopener noreferrer">
         <FaGithub className="m-3" size={22} />
@@ -35,20 +33,20 @@ export default function Portfolio() {
 {/* Another Bad Music Review */}
       <a href="https://another-bad-music-review-woo.herokuapp.com/"
         target="_blank" rel="noopener noreferrer">
-        <img src={process.env.PUBLIC_URL + abmrPhoto} alt="ABMR Photo" height={350}></img>
-        <div className="overlay"><span>Another Bad Music Review</span></div>
+        <img src={process.env.PUBLIC_URL + abmrPhoto} alt="ABMR" height={350}></img>
+        Another Bad Music Review
       </a>
       <a href="https://github.com/blairrrrwho/another-bad-music-review"
         target="_blank" rel="noopener noreferrer">
         <FaGithub className="m-3" size={22} />
       </a>
+      <br></br>
 
 {/* Employee Tracker */}
       <a href="https://github.com/blairrrrwho/employee-tracker-mysql"
         target="_blank" rel="noopener noreferrer">
-        <img src={process.env.PUBLIC_URL + employeeTrackerPhoto} alt="Employee Tracker Photo" height={350}></img>
-        <div className="overlay"><span>Employee Tracker</span></div>
-      </a>
+        <img src={process.env.PUBLIC_URL + employeeTrackerPhoto} alt="Employee Tracker" height={350}></img>
+Employee Tracker</a>
       <a href="https://github.com/blairrrrwho/employee-tracker-mysql"
         target="_blank" rel="noopener noreferrer">
         <FaGithub className="m-3" size={22} />
@@ -58,8 +56,8 @@ export default function Portfolio() {
 {/* Note Taker Express */}
       <a href="https://incredible-note-taker-express.herokuapp.com/"
         target="_blank" rel="noopener noreferrer">
-        <img src={process.env.PUBLIC_URL + noteTakerExpressPhoto} alt="Note Taker Express Photo" height={350}></img>
-        <div className="overlay"><span>Note Taker Express</span></div>
+        <img src={process.env.PUBLIC_URL + noteTakerExpressPhoto} alt="Note Taker Express" height={350}></img>
+        Note Taker Express
       </a>
       <a href="https://github.com/blairrrrwho/note-taker-express"
         target="_blank" rel="noopener noreferrer">
@@ -71,9 +69,8 @@ export default function Portfolio() {
       <br></br><br></br>
       <a href="https://blairrrrwho.github.io/astrnmy/"
         target="_blank" rel="noopener noreferrer">
-        <img src={process.env.PUBLIC_URL + astrnmyPhoto} alt="astRnMy Photo" height={350}></img>
-        <div className="overlay"><span>astRnMy</span></div>
-      </a>
+        <img src={process.env.PUBLIC_URL + astrnmyPhoto} alt="astRnMy" height={350}></img>
+astRnMy      </a>
       <a href="https://github.com/blairrrrwho/astrnmy"
         target="_blank" rel="noopener noreferrer">
         <FaGithub className="m-3" size={22} />
@@ -83,9 +80,8 @@ export default function Portfolio() {
 {/* Weather Dashboard */}
       <a href="https://blairrrrwho.github.io/another-api-weather-dashboard/"
         target="_blank" rel="noopener noreferrer">
-        <img src={process.env.PUBLIC_URL + weatherDashboardPhoto} alt="Weather Dashboard Photo" height={350}></img>
-        <div className="overlay"><span>Weather Dashboard</span></div>
-      </a>
+        <img src={process.env.PUBLIC_URL + weatherDashboardPhoto} alt="Weather Dashboard" height={350}></img>
+Weather Dashboard      </a>
       <a href="https://github.com/blairrrrwho/another-api-weather-dashboard"
         target="_blank" rel="noopener noreferrer">
         <FaGithub className="m-3" size={22} />
@@ -95,9 +91,8 @@ export default function Portfolio() {
 {/* Social Network API */}
       <a href="https://github.com/blairrrrwho/neat-social-network-api"
         target="_blank" rel="noopener noreferrer">
-        <img src={process.env.PUBLIC_URL + socialNetworkAPIPhoto} alt="Social Network API Photo" height={350}></img>
-        <div className="overlay"><span>Social Network API - Backend with MongoDB</span></div>
-      </a>
+        <img src={process.env.PUBLIC_URL + socialNetworkAPIPhoto} alt="Social Network API" height={350}></img>
+Social Network API      </a>
       <a href="https://github.com/blairrrrwho/neat-social-network-api"
         target="_blank" rel="noopener noreferrer">
         <FaGithub className="m-3" size={22} /></a>
@@ -106,9 +101,8 @@ export default function Portfolio() {
 {/* E-Commerce Backend */}
       <a href="https://github.com/blairrrrwho/orm-e-commerce-backend"
         target="_blank" rel="noopener noreferrer">
-        <img src={process.env.PUBLIC_URL + eCommerceBackendPhoto} alt="E-Commerce Backend Photo" height={350}></img>
-        <div className="overlay"><span>E-Commerce Backend - ORM</span></div>
-      </a>
+        <img src={process.env.PUBLIC_URL + eCommerceBackendPhoto} alt="E-Commerce Backend" height={350}></img>
+E-Commerce Backend      </a>
       <a href="https://github.com/blairrrrwho/orm-e-commerce-backend"
         target="_blank" rel="noopener noreferrer">
         <FaGithub className="m-3" size={22} />
@@ -118,9 +112,8 @@ export default function Portfolio() {
 {/* The Friendly Zebra Password Generator */}
       <a href="https://blairrrrwho.github.io/the-friendly-zebra-password-generator/"
         target="_blank" rel="noopener noreferrer">
-        <img src={process.env.PUBLIC_URL + pwGeneratorPhoto} alt="Password Generator Photo" height={350}></img>
-        <div className="overlay"><span>Password Generator</span></div>
-      </a>
+        <img src={process.env.PUBLIC_URL + pwGeneratorPhoto} alt="Password Generator" height={350}></img>
+Password Generator      </a>
       <a href="https://github.com/blairrrrwho/the-friendly-zebra-password-generator"
         target="_blank" rel="noopener noreferrer">
         <FaGithub className="m-3" size={22} />
