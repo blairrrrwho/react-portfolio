@@ -6,7 +6,7 @@ import "../index.css"
 function Contact() {
   const [state, handleSubmit] = useForm("mgebqnvp");
   if (state.succeeded) {
-    return <p>Thanks for joining!</p>;
+    return <p>Thanks for contacting me!</p>;
   }
   return (
     <section className="contact container">

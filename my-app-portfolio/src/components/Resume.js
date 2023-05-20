@@ -13,17 +13,34 @@ function Resume() {
         <p>Download My Resume</p>
       </a>
       <hr />
-      <h1 className="content is-medium titleheader mb-4">Skills</h1>
+      <h1 className="content is-medium titleheader mb-4">Skills</h1><br></br>
 
+      <h3>Front-End Proficiencies</h3>
+      <p>
+        HTML <br></br>
+        CSS <br></br>
+        JavaScript <br></br>
+        jQuery <br></br>
+        Responsive Design <br></br>
+        React <br></br>
+        Bootstrap, Tailwind, Bulma <br></br> 
+      </p> <br></br>
 
-      asd;faksd;f asdf Node.js, Express.js <br></br>
-      MySQL, MongoDB <br></br>
-      HTML, CSS, Javascript <br></br>
-      React <br></br>
-      Markdown <br></br>
-      Git <br></br>
-      Github Repo Management
-
+      <h3>Back-End Proficiencies</h3>
+      <p>
+        APIs <br></br>
+        Node.js <br></br>
+        Express.js <br></br>
+        MySQL, Sequelize <br></br>
+        MongoDB, Mongoose <br></br>
+        REST APIs <br></br>
+        GraphSQL <br></br> 
+      </p> <br></br>
+    
+      <h3>Full-Stack Proficiencies</h3>
+      <p>
+        MERN <br></br>
+      </p>
 
     </div>
   );
