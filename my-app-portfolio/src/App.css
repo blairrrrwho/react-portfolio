@@ -52,6 +52,23 @@ a.nav-link {
   color: #282C34;
 }
 
+#submitBtn {
+  padding-left: 1em;
+  padding-right: 1em;
+  background-color: #17B890 !important;
+  border-color: black !important;
+  box-shadow: none;
+  outline: none;
+}
+
+#submitBtn:hover{
+  background-color: #D63384 !important;
+  border-color: black !important;
+  box-shadow: none;
+  outline: none;
+}
+
+
 /* ----------------- Cards ----------------- */
 /* #projects {
   background: #eee !important; 

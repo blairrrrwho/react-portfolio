@@ -4,8 +4,8 @@ let aboutMePhoto = "/assets/aboutMePhoto.jpg";
 export default function About() {
   return (
     <div className="container p-4">
-      <h1 className="titleheader">About</h1>
-      <img className='imgOfMe' src={process.env.PUBLIC_URL+aboutMePhoto} alt="About Me Photo" height={250}></img> <br></br>
+      <h1>About</h1>
+      <img className='imgOfMe' src={process.env.PUBLIC_URL+aboutMePhoto} alt="Blair Millet" height={250}></img> <br></br>
       <p className="p-4 mb-5">
         Hi! My name is Blair Millet.  
         I've been in Atlana, Georgia the last five years and recently moved back home to Louisiana.

@@ -14,7 +14,7 @@ export default function Footer() {
           <ul>
             <a href="mailto:blair10324@gmail.com" title="Email"
               target="_blank" rel="noopener noreferrer">
-              <FaEnvelope className="m-3" size={42}/>
+              <FaEnvelope className="m-3" size={42} />
             </a>
 
             <a href="https://github.com/blairrrrwho" title="GitHub Profile"
@@ -49,7 +49,7 @@ export default function Footer() {
             </a>
           </ul>
           <div className="row-is-full ">
-           &copy; 2023 blair's big band
+            &copy; 2023 blair's big band
           </div>
           <hr />
 

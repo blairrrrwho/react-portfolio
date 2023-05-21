@@ -12,16 +12,11 @@ let pwGeneratorPhoto = "/assets/PasswordGenerator.png";
 
 export default function Portfolio() {
   return (
-    <div className="container">
-      <h1 className="titleheader">Portfolio</h1>
-      <p className="titleheader">
-
-      </p>
-      <br></br>
-
+    <div className="container p-4">
+      <h1>Portfolio</h1>
       <section id="projects" className="pb-5">
         <div className="container">
-          <h5 className="section-title h1">My Projects</h5>
+          <h5 className="section-title h2">My Projects</h5>
           <div className="row">
 
             {/* MVC Tech Blog */}
