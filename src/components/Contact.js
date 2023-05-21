@@ -1,9 +1,10 @@
 import React from 'react';
 import { useForm, ValidationError } from '@formspree/react';
 import "../index.css"
-
+// require('dotenv').config()
 function Contact() {
 
+  // const [state, handleSubmit] = useForm(process.env.REACT_APP_FORM_ID);
   const [state, handleSubmit] = useForm("xayzzwke");
   if (state.succeeded) {
     return <p className='m-4'>Thanks for contacting me!</p>;
