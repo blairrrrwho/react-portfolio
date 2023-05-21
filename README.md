@@ -38,11 +38,11 @@ Remember to set up your Formspree Account to collect contact information!
 
 
 ## Deployment
-Live URL: <a href="deployed link">Deployment Link</a>
+Live URL: <a href="https://blairrrrwho.github.io/react-portfolio/">Deployment Link</a>
 
 
 ## Screenshot
-![alt text](assets/images/screenshot.png)
+![alt text](./public/assets/react-portfolio.png)
 
 
 ## Features
