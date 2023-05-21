@@ -1,14 +1,12 @@
 import React from 'react';
-import { FaGithub } from "react-icons/fa";
-import Card from 'react-bootstrap/Card';
 let techBlogPhoto = "/assets/TechBlog.png";
 let abmrPhoto = "/assets/ABMR.png";
-let employeeTrackerPhoto = "/assets/EmployeeTracker.png";
 let noteTakerExpressPhoto = "/assets/NoteTakerExpress.png";
-let astrnmyPhoto = "/assets/astrnmy.png";
-let weatherDashboardPhoto = "/assets/WeatherDashboard.png"
+let employeeTrackerPhoto = "/assets/EmployeeTracker.png";
 let socialNetworkAPIPhoto = "/assets/SocialNetworkAPI.png";
 let eCommerceBackendPhoto = "/assets/ECommerceBackend.png";
+let astrnmyPhoto = "/assets/astrnmy.png";
+let weatherDashboardPhoto = "/assets/WeatherDashboard.png"
 let pwGeneratorPhoto = "/assets/PasswordGenerator.png";
 
 
@@ -20,7 +18,6 @@ export default function Portfolio() {
 
       </p>
       <br></br>
-
 
       <section id="projects" className="pb-5">
         <div className="container">
@@ -225,7 +222,7 @@ export default function Portfolio() {
                           It was built using MySQL2, Express.js, Sequelize and dotenv.
                           This project focuses on routes and making changes to a MySQL database using POST, PUT,
                           and DELETE requests.
-                        </p> 
+                        </p>
                         <ul className="list-inline">
                           <li className="list-inline-item">
                             <a href="https://github.com/blairrrrwho/orm-e-commerce-backend"
@@ -292,7 +289,7 @@ export default function Portfolio() {
                         <h4 className="card-title">Weather Dashboard</h4>
                         <p className="card-text">
                           <br></br>
-                          This is a basic application that allows the user to input any city and receive information 
+                          This is a basic application that allows the user to input any city and receive information
                           about the current weather, as well as a predicted five-day weather forecast.
                         </p> <br></br>
                         <ul className="list-inline">
@@ -329,8 +326,8 @@ export default function Portfolio() {
                         <h4 className="card-title">Password Generator</h4>
                         <p className="card-text">
                           <br></br>
-                          This JavaScript web application serves the purpose of generating a random password based 
-                          off of the criteria chosen by the user via alerts, prompts and confirms that pop up on the page. 
+                          This JavaScript web application serves the purpose of generating a random password based
+                          off of the criteria chosen by the user via alerts, prompts and confirms that pop up on the page.
                           The complexity of the password is strictly determined by the user's preferences.
                         </p><br></br>
                         <ul className="list-inline">
@@ -356,183 +353,6 @@ export default function Portfolio() {
           </div>
         </div>
       </section>
-
-
-      <div className="card">
-        <img src={process.env.PUBLIC_URL + techBlogPhoto} />
-        <div className="card-body">
-          <h2>Tech Blog</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-
-        </div>
-      </div>
-
-      <div className='row'>
-        <div className='col-sm-6'>
-
-          <div className="card border-dark mb-3" style={{ width: '22rem' }}>
-
-            <a href="https://another-mvc-tech-blog.herokuapp.com/" className="">
-              <img src={process.env.PUBLIC_URL + techBlogPhoto}
-                className="card-img-top" alt="Tech Blog"></img></a>
-
-            <img src={process.env.PUBLIC_URL + techBlogPhoto}
-              className="card-img-top" alt="Tech Blog"></img>
-            <div className="card-body">
-              <a href="https://another-mvc-tech-blog.herokuapp.com/" className="btn btn-dark m-1">
-                Live Site</a>
-              <a href="https://github.com/blairrrrwho/mvc-tech-blog" className="btn btn-success m-1">
-                Code</a>
-            </div>
-          </div>
-
-        </div>
-      </div>
-
-
-      <div className='row'>
-        <div className='col-sm-6'>
-          <a href="https://another-mvc-tech-blog.herokuapp.com/" className="overlay">
-            <div className="card border-dark mb-3" style={{ width: '22rem' }}>
-              <img src={process.env.PUBLIC_URL + techBlogPhoto}
-                className="card-img-top" alt="Tech Blog"></img>
-              {/* <a href="https://another-mvc-tech-blog.herokuapp.com/" className="btn btn-dark m-1">
-                Live Site</a> */}
-              <a href="https://github.com/blairrrrwho/mvc-tech-blog" className="btn btn-success m-1">
-                Code</a>
-
-            </div>
-          </a>
-
-        </div>
-      </div>
-
-      <div className='row'>
-        <div className='col-sm-6'>
-          <a href="https://another-mvc-tech-blog.herokuapp.com/" className="">
-
-            <div className="card border-dark mb-3" style={{ width: '22rem' }}>
-              <img src={process.env.PUBLIC_URL + techBlogPhoto}
-                className="card-img-top" alt="Tech Blog"></img>
-              <div className="card-body">
-                <a href="https://another-mvc-tech-blog.herokuapp.com/"
-                  target="_blank" rel="noopener noreferrer"
-                  className="btn btn-dark m-1">
-                  Live Site</a>
-                <a href="https://github.com/blairrrrwho/mvc-tech-blog"
-                  target="_blank" rel="noopener noreferrer"
-                  className="btn btn-success m-1">
-                  Code</a>
-              </div>
-            </div>
-            Tech Blog
-          </a>
-
-        </div>
-      </div>
-
-
-
-      {/* MVC Tech Blog */}
-      <a href="https://another-mvc-tech-blog.herokuapp.com/"
-        target="_blank" rel="noopener noreferrer">
-        <img src={process.env.PUBLIC_URL + techBlogPhoto} alt="Tech Blog" height={400}></img> Tech Blog</a>
-      <a href="https://github.com/blairrrrwho/mvc-tech-blog"
-        target="_blank" rel="noopener noreferrer">
-        <FaGithub className="m-3" size={22} />
-      </a>
-      <br></br><br></br>
-
-      {/* Another Bad Music Review */}
-      <a href="https://another-bad-music-review-woo.herokuapp.com/"
-        target="_blank" rel="noopener noreferrer">
-        <img src={process.env.PUBLIC_URL + abmrPhoto} alt="ABMR" height={350}></img>
-        Another Bad Music Review
-      </a>
-      <a href="https://github.com/blairrrrwho/another-bad-music-review"
-        target="_blank" rel="noopener noreferrer">
-        <FaGithub className="m-3" size={22} />
-      </a>
-      <br></br>
-
-      {/* Note Taker Express */}
-      <a href="https://incredible-note-taker-express.herokuapp.com/"
-        target="_blank" rel="noopener noreferrer">
-        <img src={process.env.PUBLIC_URL + noteTakerExpressPhoto} alt="Note Taker Express" height={350}></img>
-        Note Taker Express
-      </a>
-      <a href="https://github.com/blairrrrwho/note-taker-express"
-        target="_blank" rel="noopener noreferrer">
-        <FaGithub className="m-3" size={22} />
-      </a>
-      <br></br><br></br>
-
-      {/* Employee Tracker */}
-      <a href=""
-        target="_blank" rel="noopener noreferrer">
-        <img src={process.env.PUBLIC_URL + employeeTrackerPhoto} alt="Employee Tracker" height={350}></img>
-        Employee Tracker</a>
-      <a href="https://github.com/blairrrrwho/employee-tracker-mysql"
-        target="_blank" rel="noopener noreferrer">
-        <FaGithub className="m-3" size={22} />
-      </a>
-      <br></br><br></br>
-
-      {/* Social Network API */}
-      <a href=""
-        target="_blank" rel="noopener noreferrer">
-        <img src={process.env.PUBLIC_URL + socialNetworkAPIPhoto} alt="Social Network API" height={350}></img>
-        Social Network API      </a>
-      <a href="https://github.com/blairrrrwho/neat-social-network-api"
-        target="_blank" rel="noopener noreferrer">
-        <FaGithub className="m-3" size={22} /></a>
-      <br></br><br></br>
-
-      {/* E-Commerce Backend */}
-      <a href=""
-        target="_blank" rel="noopener noreferrer">
-        <img src={process.env.PUBLIC_URL + eCommerceBackendPhoto} alt="E-Commerce Backend" height={350}></img>
-        E-Commerce Backend      </a>
-      <a href="https://github.com/blairrrrwho/orm-e-commerce-backend"
-        target="_blank" rel="noopener noreferrer">
-        <FaGithub className="m-3" size={22} />
-      </a>
-      <br></br><br></br>
-
-
-      {/* astRnMy */}
-      <br></br><br></br>
-      <a href="https://blairrrrwho.github.io/astrnmy/"
-        target="_blank" rel="noopener noreferrer">
-        <img src={process.env.PUBLIC_URL + astrnmyPhoto} alt="astRnMy" height={350}></img>
-        astRnMy      </a>
-      <a href="https://github.com/blairrrrwho/astrnmy"
-        target="_blank" rel="noopener noreferrer">
-        <FaGithub className="m-3" size={22} />
-      </a>
-      <br></br> <br></br>
-
-      {/* Weather Dashboard */}
-      <a href="https://blairrrrwho.github.io/another-api-weather-dashboard/"
-        target="_blank" rel="noopener noreferrer">
-        <img src={process.env.PUBLIC_URL + weatherDashboardPhoto} alt="Weather Dashboard" height={350}></img>
-        Weather Dashboard      </a>
-      <a href="https://github.com/blairrrrwho/another-api-weather-dashboard"
-        target="_blank" rel="noopener noreferrer">
-        <FaGithub className="m-3" size={22} />
-      </a>
-      <br></br> <br></br>
-
-      {/* The Friendly Zebra Password Generator */}
-      <a href="https://blairrrrwho.github.io/the-friendly-zebra-password-generator/"
-        target="_blank" rel="noopener noreferrer">
-        <img src={process.env.PUBLIC_URL + pwGeneratorPhoto} alt="Password Generator" height={350}></img>
-        Password Generator      </a>
-      <a href="https://github.com/blairrrrwho/the-friendly-zebra-password-generator"
-        target="_blank" rel="noopener noreferrer">
-        <FaGithub className="m-3" size={22} />
-      </a>
-      <br></br><br></br>
     </div>
 
   );
