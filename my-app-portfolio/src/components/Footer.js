@@ -7,7 +7,7 @@ export default function Footer() {
       <footer className="footer rows ">
         <div className="content has-text-centered">
           <hr />
-          {/* <div class="row-is-full">
+          {/* <div className="row-is-full">
             <strong> &copy; 2023 blair's big band</strong>
           </div> */}
 
