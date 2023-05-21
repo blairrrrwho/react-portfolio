@@ -52,161 +52,22 @@ a.nav-link {
   color: #282C34;
 }
 
-
-/* ---------------- */
-/* .cards {
-  display: flex;
-  align-items: flex-start;
-    justify-content: center;
-}
-
-.card {
-  background: #fff;
-  width: 24em;
-  border-radius: 0.6em;
-  margin: 1em;
-  overflow: hidden;
-  cursor: pointer;
-  box-shadow: 0 13px 27px -5px hsla(240, 30.1%, 28%, 0.25), 0 8px 16px -8px hsla(0, 0%, 0%, 0.3), 0 -6px 16px -6px hsla(0, 0%, 0%, 0.03);
-  transition: all ease 200ms;
-}
-
-.card:hover {
-  transform: scale(1.03);
-  box-shadow: 0 13px 40px -5px hsla(240, 30.1%, 28%, 0.12), 0 8px 32px -8px hsla(0, 0%, 0%, 0.14), 0 -6px 32px -6px hsla(0, 0%, 0%, 0.02);
-}
-
-.card img {
-  width: 100%;
-  object-fit: cover;
-}
-
-.card h2 {
-  color: #222;
-  margin-top: -0.2em;
-  line-height: 1.4;
-  font-size: 1.3em;
-  font-weight: 500;
-  font-family: 'Montserrat', sans-serif;
-  transition: all ease-in 100ms;
-}
-
-.card p {
-  color: #777;
-}
-
-.card h5 {
-  color: #bbb;
-  font-weight: 700;
-  font-size: 0.7em;
-  letter-spacing: 0.04em;
-  margin: 1.4em 0 0 0;
-  text-transform: uppercase;
-}
-
-.card-body {
-  padding: 1.2em;
+/* ----------------- Cards ----------------- */
+/* #projects {
+  background: #eee !important; 
 } */
-
-
-
-
-/* ------------------------------- */
-/*----  Main Style  ----*/
-/* #cards_landscape_wrap-2{
-  text-align: center;
-  background: #F7F7F7;
-} */
-/* #cards_landscape_wrap-2 .container{
-  padding-top: 80px; 
-  padding-bottom: 100px;
-}
-#cards_landscape_wrap-2 a{
-  text-decoration: none;
-  outline: none;
-}
-#cards_landscape_wrap-2 .card-flyer {
-  border-radius: 5px;
-}
-#cards_landscape_wrap-2 .card-flyer .image-box{
-  background: #ffffff;
-  overflow: hidden;
-  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.50);
-  border-radius: 5px;
-}
-#cards_landscape_wrap-2 .card-flyer .image-box img{
-  -webkit-transition:all .9s ease; 
-  -moz-transition:all .9s ease; 
-  -o-transition:all .9s ease;
-  -ms-transition:all .9s ease; 
-  width: 100%;
-  height: 200px;
-}
-#cards_landscape_wrap-2 .card-flyer:hover .image-box img{
-  opacity: 0.7;
-  -webkit-transform:scale(1.15);
-  -moz-transform:scale(1.15);
-  -ms-transform:scale(1.15);
-  -o-transform:scale(1.15);
-  transform:scale(1.15);
-}
-#cards_landscape_wrap-2 .card-flyer .text-box{
-  text-align: center;
-}
-#cards_landscape_wrap-2 .card-flyer .text-box .text-container{
-  padding: 30px 18px;
-}
-#cards_landscape_wrap-2 .card-flyer{
-  background: #FFFFFF;
-  margin-top: 50px;
-  -webkit-transition: all 0.2s ease-in;
-  -moz-transition: all 0.2s ease-in;
-  -ms-transition: all 0.2s ease-in;
-  -o-transition: all 0.2s ease-in;
-  transition: all 0.2s ease-in;
-  box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.40);
-}
-#cards_landscape_wrap-2 .card-flyer:hover{
-  background: #fff;
-  box-shadow: 0px 15px 26px rgba(0, 0, 0, 0.50);
-  -webkit-transition: all 0.2s ease-in;
-  -moz-transition: all 0.2s ease-in;
-  -ms-transition: all 0.2s ease-in;
-  -o-transition: all 0.2s ease-in;
-  transition: all 0.2s ease-in;
-  margin-top: 50px;
-}
-#cards_landscape_wrap-2 .card-flyer .text-box p{
-  margin-top: 10px;
-  margin-bottom: 0px;
-  padding-bottom: 0px; 
-  font-size: 14px;
-  letter-spacing: 1px;
-  color: #000000;
-}
-#cards_landscape_wrap-2 .card-flyer .text-box h6{
-  margin-top: 0px;
-  margin-bottom: 4px; 
-  font-size: 18px;
-  font-weight: bold;
-  text-transform: uppercase;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  letter-spacing: 1px;
-  color: #00acc1;
-} */
-
-
-/* ----------------- */
-
-#projects {
-  /* background: #eee !important; */
-}
 
 .btn-warning:hover,
-.btn-dark:hover,
+.btn-dark:hover {
+  background-color: #052f54ce !important;
+  border-color: black !important;
+  box-shadow: none;
+  outline: none;
+}
+
 .btn-warning:focus,
 .btn-dark:focus {
-  background-color: #052f54ce !important;
+  background-color: #957D95 !important;
   border-color: black !important;
   box-shadow: none;
   outline: none;
@@ -258,6 +119,7 @@ section .section-title {
   -ms-transition: 1s;
   -moz-transition: 1s;
   -moz-transform: perspective(1000px);
+  transform: perspective (1000px);
   -moz-transform-style: preserve-3d;
   -ms-transform-style: preserve-3d;
   transition: 1s;
@@ -268,6 +130,7 @@ section .section-title {
 .frontside {
   position: relative;
   -webkit-transform: rotateY(0deg);
+  transform: rotateY(0deg);
   -ms-transform: rotateY(0deg);
   z-index: 2;
   margin-bottom: 30px;
@@ -321,6 +184,11 @@ section .section-title {
   color: #D63384 !important;
 }
 
+.backside .card a:focus {
+  font-size: 18px;
+  color: #052f54ce !important;
+}
+
 .frontside .card .card-title,
 .backside .card .card-title {
   color: #007b5e !important;
@@ -330,4 +198,8 @@ section .section-title {
   width: 120px;
   height: 120px;
   border-radius: 50%;
+}
+
+.card-body {
+  padding: 0px !important;
 }
