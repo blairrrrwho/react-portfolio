@@ -1,4 +1,5 @@
 import React from 'react';
+let codeCollabPhoto = "/assets/CodeCollab.png";
 let techBlogPhoto = "/assets/TechBlog.png";
 let abmrPhoto = "/assets/ABMR.png";
 let noteTakerExpressPhoto = "/assets/NoteTakerExpress.png";
@@ -18,6 +19,45 @@ export default function Portfolio() {
         <div className="container">
           <h5 className="section-title h2">My Projects</h5>
           <div className="row">
+
+            {/* CodeCollab */}
+            <div className="col-xs-12 col-sm-6 col-md-4">
+              <div className="image-flip" ontouchstart="this.classList.toggle('hover');">
+                <div className="mainflip">
+                  <div className="frontside card-body">
+                    <img className="img-fluid card card-body" src={process.env.PUBLIC_URL + codeCollabPhoto}
+                      alt="Another Bad Music Review"></img>
+                    <h4 className="card-title">CodeCollab</h4>
+                  </div>
+                  <div className="backside">
+                    <div className="card">
+                      <div className="card-body text-center mt-4">
+                        <h4 className="card-title">CodeCollab</h4>
+                        <p className="card-text">
+                          <br></br>
+                          Join our bootcamp blog. Connect with alumni, share resources.
+                          Create an account for curated coding content, industry insights.
+                          Inclusive community supports your journey. Discover advice, success stories,
+                          discuss trends. Join today and tap into collective knowledge.
+                        </p><br></br>
+                        <ul className="list-inline">
+                          <li className="list-inline-item">
+                            <a href="https://codecollab-for-developers.herokuapp.com/"
+                              target="_blank" rel="noopener noreferrer" className="btn btn-dark m-1">
+                              Live Site</a>
+                          </li>
+                          <li className="list-inline-item">
+                            <a href="https://github.com/blairrrrwho/codecollab"
+                              target="_blank" rel="noopener noreferrer" className="btn btn-warning m-1">
+                              Code</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
 
             {/* MVC Tech Blog */}
             <div className="col-xs-12 col-sm-6 col-md-4">
@@ -83,7 +123,7 @@ export default function Portfolio() {
                               Live Site</a>
                           </li>
                           <li className="list-inline-item">
-                            <a href="https://github.com/blairrrrwho/employee-tracker-mysql"
+                            <a href="https://github.com/blairrrrwho/another-bad-music-review"
                               target="_blank" rel="noopener noreferrer" className="btn btn-warning m-1">
                               Code</a>
                           </li>
@@ -132,7 +172,7 @@ export default function Portfolio() {
               </div>
             </div>
 
-            {/* Note Taker Express */}
+            {/* Employee Tracker */}
             <div className="col-xs-12 col-sm-6 col-md-4">
               <div className="image-flip" ontouchstart="this.classList.toggle('hover');">
                 <div className="mainflip">
