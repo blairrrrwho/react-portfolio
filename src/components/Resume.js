@@ -8,7 +8,7 @@ function Resume() {
       <h1>Resume:</h1> <br></br>
       <a
         className="button resume m-3"
-        href={process.env.PUBLIC_URL + "/assets/ResumeLinkedIn_blair-millet.pdf"}
+        href={process.env.PUBLIC_URL + "/assets/Millet_Blair - Resume7.pdf"}
         target="_blank" rel="noopener noreferrer">
         <FaFileDownload />
         <p className="resume">Download My Resume</p>
