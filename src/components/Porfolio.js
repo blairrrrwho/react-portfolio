@@ -1,6 +1,5 @@
 import React from 'react';
 let codeCollabPhoto = "/assets/CodeCollab.png";
-let techBlogPhoto = "/assets/TechBlog.png";
 let abmrPhoto = "/assets/ABMR.png";
 let noteTakerExpressPhoto = "/assets/NoteTakerExpress.png";
 let employeeTrackerPhoto = "/assets/EmployeeTracker.png";
@@ -9,6 +8,9 @@ let eCommerceBackendPhoto = "/assets/ECommerceBackend.png";
 let astrnmyPhoto = "/assets/astrnmy.png";
 let weatherDashboardPhoto = "/assets/WeatherDashboard.png"
 let pwGeneratorPhoto = "/assets/PasswordGenerator.png";
+let anotherTechBlogPhoto = "/assets/AnotherTechBlog.png";
+let yourTeamProfileGenPhoto = "/assets/YourTeamProfileGenerator.png";
+let workDaySchedulerPhoto = "/assets/WorkDayScheduler.png";
 
 
 export default function Portfolio() {
@@ -59,14 +61,88 @@ export default function Portfolio() {
               </div>
             </div>
 
+            {/* Another Bad Music Review */}
+            <div className="col-xs-12 col-md-6 col-lg-4">
+              <div className="image-flip" ontouchstart="this.classList.toggle('hover');">
+                <div className="mainflip">
+                  <div className="frontside card-body">
+                    <img className="img-fluid card card-body" src={process.env.PUBLIC_URL + abmrPhoto}
+                      alt="Another Bad Music Review"></img>
+                    <h4 className="card-title">Another Bad Music Review</h4>
+                  </div>
+                  <div className="backside">
+                    <div className="card">
+                      <div className="card-body text-center mt-4">
+                        <h4 className="card-title">Another Bad Music Review</h4>
+                        <p className="card-text">
+                          <br></br>
+                          Full-stack web application -- a music blog that allows users to view, post,
+                          and comment on blogs all of which are tailored to the music world.
+                        </p><br></br>
+                        <ul className="list-inline">
+                          <li className="list-inline-item">
+                            <a href="https://another-bad-music-review-woo.herokuapp.com/"
+                              target="_blank" rel="noopener noreferrer" className="btn btn-dark m-1">
+                              Live Site</a>
+                          </li>
+                          <li className="list-inline-item">
+                            <a href="https://github.com/blairrrrwho/another-bad-music-review"
+                              target="_blank" rel="noopener noreferrer" className="btn btn-warning m-1">
+                              Code</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* astRnMy */}
+            <div className="col-xs-12 col-md-6 col-lg-4">
+              <div className="image-flip" ontouchstart="this.classList.toggle('hover');">
+                <div className="mainflip">
+                  <div className="frontside card-body">
+                    <img className="img-fluid card card-body" src={process.env.PUBLIC_URL + astrnmyPhoto}
+                      alt="astRnMy" ></img>
+                    <h4 className="card-title">astRnMy</h4>
+                  </div>
+                  <div className="backside">
+                    <div className="card">
+                      <div className="card-body text-center mt-4">
+                        <h4 className="card-title">astRnMy</h4>
+                        <p className="card-text">
+                          <br></br>
+                          This is a fun astronomy photo of the day application that simultaneously shows you
+                          the DNA of a Rick and Morty character that has visited the respected area in space!
+                        </p> <br></br>
+                        <ul className="list-inline">
+                          <li className="list-inline-item">
+                            <a href="https://blairrrrwho.github.io/astrnmy/"
+                              target="_blank" rel="noopener noreferrer" className="btn btn-dark m-1">
+                              Live Site</a>
+                          </li>
+                          <li className="list-inline-item">
+                            <a href="https://github.com/blairrrrwho/astrnmy"
+                              target="_blank" rel="noopener noreferrer" className="btn btn-warning m-1">
+                              Code</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
             {/* MVC Tech Blog */}
             <div className="col-xs-12 col-md-6 col-lg-4">
               <div className="image-flip" ontouchstart="this.classList.toggle('hover');">
                 <div className="mainflip">
                   <div className="frontside card-body">
-                    <img className="img-fluid card card-body" src={process.env.PUBLIC_URL + techBlogPhoto}
+                    <img className="img-fluid card card-body" src={process.env.PUBLIC_URL + anotherTechBlogPhoto}
                       alt="Tech Blog"></img>
-                    <h4 className="card-title">Tech Blog</h4>
+                    <h4 className="card-title">Another Tech Blog</h4>
                   </div>
                   <div className="backside">
                     <div className="card">
@@ -98,32 +174,32 @@ export default function Portfolio() {
               </div>
             </div>
 
-            {/* Another Bad Music Review */}
+            {/* Weather Dashboard */}
             <div className="col-xs-12 col-md-6 col-lg-4">
               <div className="image-flip" ontouchstart="this.classList.toggle('hover');">
                 <div className="mainflip">
                   <div className="frontside card-body">
-                    <img className="img-fluid card card-body" src={process.env.PUBLIC_URL + abmrPhoto}
-                      alt="Another Bad Music Review"></img>
-                    <h4 className="card-title">Another Bad Music Review</h4>
+                    <img className="img-fluid card card-body" src={process.env.PUBLIC_URL + weatherDashboardPhoto}
+                      alt="Weather Dashboard" ></img>
+                    <h4 className="card-title">Weather Dashboard</h4>
                   </div>
                   <div className="backside">
                     <div className="card">
                       <div className="card-body text-center mt-4">
-                        <h4 className="card-title">Another Bad Music Review</h4>
+                        <h4 className="card-title">Weather Dashboard</h4>
                         <p className="card-text">
                           <br></br>
-                          Full-stack web application -- a music blog that allows users to view, post,
-                          and comment on blogs all of which are tailored to the music world.
-                        </p><br></br>
+                          This is a basic application that allows the user to input any city and receive information
+                          about the current weather, as well as a predicted five-day weather forecast.
+                        </p> <br></br>
                         <ul className="list-inline">
                           <li className="list-inline-item">
-                            <a href="https://another-bad-music-review-woo.herokuapp.com/"
+                            <a href="https://blairrrrwho.github.io/another-api-weather-dashboard/"
                               target="_blank" rel="noopener noreferrer" className="btn btn-dark m-1">
                               Live Site</a>
                           </li>
                           <li className="list-inline-item">
-                            <a href="https://github.com/blairrrrwho/another-bad-music-review"
+                            <a href="https://github.com/blairrrrwho/another-api-weather-dashboard"
                               target="_blank" rel="noopener noreferrer" className="btn btn-warning m-1">
                               Code</a>
                           </li>
@@ -252,89 +328,14 @@ export default function Portfolio() {
                         <h4 className="card-title">E-Commerce Back-End</h4>
                         <p className="card-text">
                           <br></br>
-                          Object-Relational Mapping (ORM): E-Commerce Back-End - This is a MySQL database and
-                          application back-end built for an e-commerce website.
-                          It was built using MySQL2, Express.js, Sequelize and dotenv.
+                          This is a MySQL database and application back-end built for an e-commerce website,
+                          using MySQL2, Express.js, Sequelize and dotenv.
                           This project focuses on routes and making changes to a MySQL database using POST, PUT,
                           and DELETE requests.
                         </p>
                         <ul className="list-inline">
                           <li className="list-inline-item">
                             <a href="https://github.com/blairrrrwho/orm-e-commerce-backend"
-                              target="_blank" rel="noopener noreferrer" className="btn btn-warning m-1">
-                              Code</a>
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            {/* astRnMy */}
-            <div className="col-xs-12 col-md-6 col-lg-4">
-              <div className="image-flip" ontouchstart="this.classList.toggle('hover');">
-                <div className="mainflip">
-                  <div className="frontside card-body">
-                    <img className="img-fluid card card-body" src={process.env.PUBLIC_URL + astrnmyPhoto}
-                      alt="astRnMy" ></img>
-                    <h4 className="card-title">astRnMy</h4>
-                  </div>
-                  <div className="backside">
-                    <div className="card">
-                      <div className="card-body text-center mt-4">
-                        <h4 className="card-title">astRnMy</h4>
-                        <p className="card-text">
-                          <br></br>
-                          This is a fun astronomy photo of the day application that simultaneously shows you
-                          the DNA of a Rick and Morty character that has visited the respected area in space!
-                        </p> <br></br>
-                        <ul className="list-inline">
-                          <li className="list-inline-item">
-                            <a href="https://blairrrrwho.github.io/astrnmy/"
-                              target="_blank" rel="noopener noreferrer" className="btn btn-dark m-1">
-                              Live Site</a>
-                          </li>
-                          <li className="list-inline-item">
-                            <a href="https://github.com/blairrrrwho/astrnmy"
-                              target="_blank" rel="noopener noreferrer" className="btn btn-warning m-1">
-                              Code</a>
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            {/* Weather Dashboard */}
-            <div className="col-xs-12 col-md-6 col-lg-4">
-              <div className="image-flip" ontouchstart="this.classList.toggle('hover');">
-                <div className="mainflip">
-                  <div className="frontside card-body">
-                    <img className="img-fluid card card-body" src={process.env.PUBLIC_URL + weatherDashboardPhoto}
-                      alt="Weather Dashboard" ></img>
-                    <h4 className="card-title">Weather Dashboard</h4>
-                  </div>
-                  <div className="backside">
-                    <div className="card">
-                      <div className="card-body text-center mt-4">
-                        <h4 className="card-title">Weather Dashboard</h4>
-                        <p className="card-text">
-                          <br></br>
-                          This is a basic application that allows the user to input any city and receive information
-                          about the current weather, as well as a predicted five-day weather forecast.
-                        </p> <br></br>
-                        <ul className="list-inline">
-                          <li className="list-inline-item">
-                            <a href="https://blairrrrwho.github.io/another-api-weather-dashboard/"
-                              target="_blank" rel="noopener noreferrer" className="btn btn-dark m-1">
-                              Live Site</a>
-                          </li>
-                          <li className="list-inline-item">
-                            <a href="https://github.com/blairrrrwho/another-api-weather-dashboard"
                               target="_blank" rel="noopener noreferrer" className="btn btn-warning m-1">
                               Code</a>
                           </li>
@@ -373,6 +374,75 @@ export default function Portfolio() {
                           </li>
                           <li className="list-inline-item">
                             <a href="https://github.com/blairrrrwho/the-friendly-zebra-password-generator"
+                              target="_blank" rel="noopener noreferrer" className="btn btn-warning m-1">
+                              Code</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* Your Team Profile Generator */}
+            <div className="col-xs-12 col-md-6 col-lg-4">
+              <div className="image-flip" ontouchstart="this.classList.toggle('hover');">
+                <div className="mainflip">
+                  <div className="frontside card-body">
+                    <img className="img-fluid card card-body" src={process.env.PUBLIC_URL + yourTeamProfileGenPhoto}
+                      alt="Your Team Profile Generator"></img>
+                    <h4 className="card-title">Your Team Profile Generator</h4>
+                  </div>
+                  <div className="backside">
+                    <div className="card">
+                      <div className="card-body text-center mt-4">
+                        <h4 className="card-title">Your Team Profile Generator Generator</h4>
+                        <p className="card-text">
+                          <br></br>
+                          This is a Node.js command-line application that takes in information about employees on a software
+                          engineering team and generates an HTML webpage that displays summaries for each person.
+                        </p><br></br>
+                        <ul className="list-inline">
+                          <li className="list-inline-item">
+                            <a href="https://github.com/blairrrrwho/your-team-profile-generator"
+                              target="_blank" rel="noopener noreferrer" className="btn btn-warning m-1">
+                              Code</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* Neat Work Day Scheduler */}
+            <div className="col-xs-12 col-md-6 col-lg-4">
+              <div className="image-flip" ontouchstart="this.classList.toggle('hover');">
+                <div className="mainflip">
+                  <div className="frontside card-body">
+                    <img className="img-fluid card card-body" src={process.env.PUBLIC_URL + workDaySchedulerPhoto}
+                      alt="Neat Work Day Scheduler"></img>
+                    <h4 className="card-title">Neat Work Day Scheduler</h4>
+                  </div>
+                  <div className="backside">
+                    <div className="card">
+                      <div className="card-body text-center mt-4">
+                        <h4 className="card-title">Neat Work Day Scheduler</h4>
+                        <p className="card-text">
+                          <br></br>
+                          This is a simple calendar application that allows a user to save events each hour of the day.
+                          This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
+                        </p><br></br>
+                        <ul className="list-inline">
+                          <li className="list-inline-item">
+                            <a href="https://blairrrrwho.github.io/the-neat-work-day-scheduler/"
+                              target="_blank" rel="noopener noreferrer" className="btn btn-dark m-1">
+                              Live Site</a>
+                          </li>
+                          <li className="list-inline-item">
+                            <a href="https://github.com/blairrrrwho/the-neat-work-day-scheduler"
                               target="_blank" rel="noopener noreferrer" className="btn btn-warning m-1">
                               Code</a>
                           </li>
