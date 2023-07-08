@@ -10,13 +10,13 @@ export default function About() {
       <p className="p-4 mb-2">
         Hi! My name is Blair Millet.  
         I've been in Atlana, Georgia the last five years and recently moved back home to Louisiana.
-        I'm attending a Full Stack Web Development Bootcamp through the Georgia Institute of Technology and 
-        will be starting my job search with my new career as a Full Stack Developer. <br></br>
+        I just completed the Full Stack Flex Web Development Coding Bootcamp through Georgia Institute of Technology and 
+        have officially began my new career as a Full Stack Developer. <br></br>
         <br></br>
-        This site is my portfolio, built with react. By using the navbar, you will find an about me section,
-        a collection of projects I've completed, a resume section with the option to download my resume and a skills section, 
-        a contact form to send a message directly to my email, 
-        and various ways to get in contact with me - listed in the footer. 
+        Welcome to my react portfolio! By using the navbar, you will find an about me section,
+        a collection of projects I've completed, a resume section where you can download my resume
+        and view a list of my current skills, and a contact section which includes a form to contact me directly. 
+        If you'd like to reach out on your own, the footer contains various ways to find me. 
       </p>
     </div>
   );

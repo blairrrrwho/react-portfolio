@@ -20,33 +20,43 @@ function Resume() {
       <p>
         HTML <br></br>
         CSS <br></br>
-        JavaScript <br></br>
-        jQuery <br></br>
-        Responsive Design <br></br>
+        JavaScript ES6+<br></br>
         React <br></br>
-        Bootstrap, Tailwind, Bulma <br></br>
+        jQuery <br></br>
+        Responsive / Mobile First Web Design <br></br>
+        Bootstrap, Tailwind, Bulma, Handlebars <br></br>
       </p> <br></br>
 
       <h3>Back-End Proficiencies</h3>
       <p>
-        Web APIs, Third-Party APIs, Server-Side APIs, REST APIs <br></br>
+        Web APIs, Third-Party APIs <br></br>
+        Server-Side APIs, REST APIs <br></br>
         Node.js <br></br>
         Express.js <br></br>
+        SQL, NoSQL, <br></br>
         MySQL, Sequelize <br></br>
-        MongoDB, Mongoose <br></br>
-        GraphSQL <br></br>
+        MongoDB, Mongoose ODM, MongoDB Atlas <br></br>
+        Apollo Server, GraphSQL <br></br>
+        Data Structures <br></br>
       </p> <br></br>
 
       <h3>Full-Stack Proficiencies</h3>
       <p>
-        MERN <br></br>
+        MERN Stack<br></br>
+        Asynchronous Programming
+        Model-View-Controller - MVC <br></br>
+        Object-Oriented Programming - OOP <br></br>
+        Object-Relational Mapping - ORM <br></br>
+        Content Management Systems - CMS <br></br>
+        Agile Project Management <br></br>
       </p> <br></br>
 
       <h3>Other</h3>
       <p>
         Git <br></br>
-        Markdown <br></br>
-        GitHub Pages <br></br>
+        GitFlow <br></br>
+        Technical Documentation, Markdown <br></br>
+        GitHub, GitHub Pages <br></br>
         Heroku <br></br>
         NPM <br></br>
       </p>
