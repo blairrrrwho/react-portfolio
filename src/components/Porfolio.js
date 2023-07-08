@@ -13,7 +13,7 @@ let pwGeneratorPhoto = "/assets/PasswordGenerator.png";
 
 export default function Portfolio() {
   return (
-    <div className="container p-4">
+    <div className="container p-3">
       <h1>Portfolio</h1>
       <section id="projects" className="pb-5">
         <div className="container">
@@ -21,12 +21,12 @@ export default function Portfolio() {
           <div className="row">
 
             {/* CodeCollab */}
-            <div className="col-xs-12 col-sm-6 col-md-4">
+            <div className="col-xs-12 col-md-6 col-lg-4">
               <div className="image-flip" ontouchstart="this.classList.toggle('hover');">
                 <div className="mainflip">
                   <div className="frontside card-body">
                     <img className="img-fluid card card-body" src={process.env.PUBLIC_URL + codeCollabPhoto}
-                      alt="Another Bad Music Review"></img>
+                      alt="CodeCollab"></img>
                     <h4 className="card-title">CodeCollab</h4>
                   </div>
                   <div className="backside">
@@ -60,7 +60,7 @@ export default function Portfolio() {
             </div>
 
             {/* MVC Tech Blog */}
-            <div className="col-xs-12 col-sm-6 col-md-4">
+            <div className="col-xs-12 col-md-6 col-lg-4">
               <div className="image-flip" ontouchstart="this.classList.toggle('hover');">
                 <div className="mainflip">
                   <div className="frontside card-body">
@@ -99,7 +99,7 @@ export default function Portfolio() {
             </div>
 
             {/* Another Bad Music Review */}
-            <div className="col-xs-12 col-sm-6 col-md-4">
+            <div className="col-xs-12 col-md-6 col-lg-4">
               <div className="image-flip" ontouchstart="this.classList.toggle('hover');">
                 <div className="mainflip">
                   <div className="frontside card-body">
@@ -136,7 +136,7 @@ export default function Portfolio() {
             </div>
 
             {/* Note Taker Express */}
-            <div className="col-xs-12 col-sm-6 col-md-4">
+            <div className="col-xs-12 col-md-6 col-lg-4">
               <div className="image-flip" ontouchstart="this.classList.toggle('hover');">
                 <div className="mainflip">
                   <div className="frontside card-body">
@@ -173,7 +173,7 @@ export default function Portfolio() {
             </div>
 
             {/* Employee Tracker */}
-            <div className="col-xs-12 col-sm-6 col-md-4">
+            <div className="col-xs-12 col-md-6 col-lg-4">
               <div className="image-flip" ontouchstart="this.classList.toggle('hover');">
                 <div className="mainflip">
                   <div className="frontside card-body">
@@ -205,7 +205,7 @@ export default function Portfolio() {
             </div>
 
             {/* Social Network API */}
-            <div className="col-xs-12 col-sm-6 col-md-4">
+            <div className="col-xs-12 col-md-6 col-lg-4">
               <div className="image-flip" ontouchstart="this.classList.toggle('hover');">
                 <div className="mainflip">
                   <div className="frontside card-body">
@@ -238,7 +238,7 @@ export default function Portfolio() {
             </div>
 
             {/* E-Commerce Back-End */}
-            <div className="col-xs-12 col-sm-6 col-md-4">
+            <div className="col-xs-12 col-md-6 col-lg-4">
               <div className="image-flip" ontouchstart="this.classList.toggle('hover');">
                 <div className="mainflip">
                   <div className="frontside card-body">
@@ -273,7 +273,7 @@ export default function Portfolio() {
             </div>
 
             {/* astRnMy */}
-            <div className="col-xs-12 col-sm-6 col-md-4">
+            <div className="col-xs-12 col-md-6 col-lg-4">
               <div className="image-flip" ontouchstart="this.classList.toggle('hover');">
                 <div className="mainflip">
                   <div className="frontside card-body">
@@ -310,7 +310,7 @@ export default function Portfolio() {
             </div>
 
             {/* Weather Dashboard */}
-            <div className="col-xs-12 col-sm-6 col-md-4">
+            <div className="col-xs-12 col-md-6 col-lg-4">
               <div className="image-flip" ontouchstart="this.classList.toggle('hover');">
                 <div className="mainflip">
                   <div className="frontside card-body">
@@ -347,7 +347,7 @@ export default function Portfolio() {
             </div>
 
             {/* The Friendly Zebra Password Generator */}
-            <div className="col-xs-12 col-sm-6 col-md-4">
+            <div className="col-xs-12 col-md-6 col-lg-4">
               <div className="image-flip" ontouchstart="this.classList.toggle('hover');">
                 <div className="mainflip">
                   <div className="frontside card-body">
@@ -383,7 +383,6 @@ export default function Portfolio() {
                 </div>
               </div>
             </div>
-
 
           </div>
         </div>
